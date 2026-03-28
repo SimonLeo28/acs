@@ -26,7 +26,7 @@ const feeds = [
   },
   {
     id: "feed-2",
-    name: "Line 2 – TLCSB",
+    name: "Line 2 – KHS",
     camera: "CAM-02",
     status: "active" as const,
     stats: {
@@ -43,7 +43,7 @@ const feeds = [
   },
   {
     id: "feed-3",
-    name: "Line 3 – TLCSA",
+    name: "Line 3 – WaterLine",
     camera: "CAM-03",
     status: "idle" as const,
     stats: {
