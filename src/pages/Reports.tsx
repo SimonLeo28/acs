@@ -294,7 +294,7 @@ const Reports = () => {
                   type="text"
                   value={filters.pack}
                   onChange={(e) => setFilters(prev => ({ ...prev, pack: e.target.value }))}
-                  className="w-full bg-input/50 border border-border rounded-lg px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all"
+                  className="bg-blue-900 w-full bg-input/50 border border-border rounded-lg px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all"
                   placeholder="e.g. 12-pack"
                 />
               </div>
