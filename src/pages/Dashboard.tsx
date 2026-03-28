@@ -125,6 +125,9 @@ const Dashboard = () => {
           <button onClick={() => navigate("/settings")} className="w-full flex items-center gap-3 px-4 py-2.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-sidebar-accent/50 text-sm transition-colors">
             <Settings className="w-4 h-4" /> Settings
           </button>
+          <button onClick={() => navigate("/")} className="w-full flex items-center gap-3 px-4 py-2.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-sidebar-accent/50 text-sm transition-colors">
+            <Settings className="w-4 h-4" /> Log Out
+          </button>
         </nav>
         <div className="p-3 border-t border-sidebar-border">
           <button onClick={() => navigate("/")} className="w-full flex items-center gap-3 px-4 py-2.5 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 text-sm transition-colors">
